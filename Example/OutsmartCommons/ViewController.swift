@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import OutsmartCommons
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let loading = LoadingOverlay.shared
+        loading.showOverlay(view: self.view)
+        loading.setIndicatorColor(color: UIColor.white)
+        loading.setBackgroundColor(color: UIColor.orange)
+        loading.setBackgroundSize(size: 80)
+        loading.setIndicatorSize(size: 80)
     }
 
     override func didReceiveMemoryWarning() {
