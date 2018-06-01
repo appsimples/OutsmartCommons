@@ -1,36 +1,27 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
   - Nimble (7.0.3)
-  - Nimble-Snapshots (6.3.0):
-    - Nimble-Snapshots/Core (= 6.3.0)
-  - Nimble-Snapshots/Core (6.3.0):
-    - FBSnapshotTestCase (~> 2.0)
-    - Nimble (~> 7.0)
   - OutsmartCommons (0.1.0)
   - Quick (1.2.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase (~> 2.1.4)
   - Nimble (~> 7.0.2)
-  - Nimble-Snapshots (~> 6.3.0)
   - OutsmartCommons (from `../`)
   - Quick (~> 1.2.0)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
+
 EXTERNAL SOURCES:
   OutsmartCommons:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
-  Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
-  OutsmartCommons: 958fc69fd2adcf4bc58d7557016ef5d12663c1c8
+  OutsmartCommons: 430e448612412cf935d214bd14641093cf1e2f74
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
 
-PODFILE CHECKSUM: 1b3d28cc5fe2f77a54805b1ab5d68c1f8d5a0929
+PODFILE CHECKSUM: a0ff0073fb499d24362ed9c9416cb9721dbcb943
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import OutsmartCommons
 
 class ViewController: UIViewController {
 
@@ -18,6 +19,13 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        let myAlert = UIAlertController.build(WithTitle: "Title", defaultActionTitle: "Ok", style: .alert, options: ("Action title", .default, {
+            print("Done")
+        }))
+        present(myAlert, animated: true, completion: nil)
     }
 
 }
