@@ -1,0 +1,6 @@
+framework module Pods_OutsmartCommons_Tests {
+  umbrella header "Pods-OutsmartCommons_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

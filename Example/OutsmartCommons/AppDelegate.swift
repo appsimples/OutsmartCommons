@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import OutsmartCommons
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

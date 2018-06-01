@@ -1,0 +1,22 @@
+{
+  "name": "OutsmartCommons",
+  "version": "0.1.0",
+  "summary": "A short description of OutsmartCommons.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Bele Sprengel/OutsmartCommons",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Bele Sprengel": "isabele.appsimples@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Bele Sprengel/OutsmartCommons.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OutsmartCommons/Classes/**/*"
+}

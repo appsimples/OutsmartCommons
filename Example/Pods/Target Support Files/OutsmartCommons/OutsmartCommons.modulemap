@@ -1,0 +1,6 @@
+framework module OutsmartCommons {
+  umbrella header "OutsmartCommons-umbrella.h"
+
+  export *
+  module * { export * }
+}
